@@ -59,9 +59,6 @@ class _TheCalculatorState extends State<TheCalculator> {
       {
         result = "Something's not right!";
       }
-
-
-
       }
       else
       {
@@ -186,6 +183,11 @@ class _TheCalculatorState extends State<TheCalculator> {
                 ),
               )
             ],
+          ),
+          Row(
+            children: <Widget>[
+              Text("Developed with ❤ by HOBARB")],
+            mainAxisAlignment: MainAxisAlignment.center,
           )
 
 
